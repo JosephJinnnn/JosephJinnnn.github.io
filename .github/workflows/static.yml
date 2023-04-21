@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Palais des Enfants</title>
+	<link rel="stylesheet" href="css of main page.css">
+	<style>
+		h1 {
+			text-align: center;
+			font-family: verdana;
+			font-size: 300%;
+		}
+		p  {
+			text-align: center;
+			color: black;
+			font-family: courier;
+			font-size: 160%;
+		}
+	</style>
+</head>
+	
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about-us">About Us</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#reservations">Reservations</a></li>
+				<li><a href="#contact-us">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero">
+			<h1>Palais des Enfants</h1>
+			<p>by Anthony Pierre</p>
+		</section>
+
+		<section id="about-us">
+			<h2>About Us</h2>
+			<p>We are a family-owned restaurant that specializes in French cuisine. Our chefs use only the freshest ingredients to create delicious dishes that are sure to satisfy your taste buds.</p>
+			<p>Our restaurant is located in the heart of the city, making it a convenient stop for both locals and tourists alike. </p>
+			
+			<img src="city view.jpg" alt="the view" width="800" height="600" class="image" id="main-image">
+
+		</section>
+
+		<section id="menu">
+			<h2>Our Menu</h2>
+			<p>Our menu features a variety of classic French dishes. </p>
+			<img src="burger.jpg" alt="Cheese Burger & fries" width="800" height="600" class="image" id="main-image">
+			<p>We also offer an extensive dessert list to complement your meal.</p>
+			<img src="dessert.jpg" alt="Nugget & Ice Cream" width="800" height="600" class="image" id="main-image">
+		</section>
+
+		<section id="reservations">
+			<h2>Reservations</h2>
+			<p>Reservations are highly recommended, especially on weekends and holidays. Please call us at (123) 456-7890 to make a reservation or use our online booking system.</p>
+			
+		</section>
+
+		<section id="contact-us">
+			<h2>Contact Us</h2>
+			<p>Palais des Enfants Restaurant<br>
+			123 Main Street<br>
+			City, State Zip<br>
+			(123) 456-7890<br>
+			info@palaisdesenfants.com</p>
+		</section>
+	</main>
+	
+	<footer>
+	  <p>&copy; 2023 Palais des Enfants Restaurant. All rights reserved.</p>
+	</footer>
+</body>
+</html>
